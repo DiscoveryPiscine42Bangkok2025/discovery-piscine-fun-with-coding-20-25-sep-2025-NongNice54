@@ -1,1 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg1 {
+  background-image: url("https://via.placeholder.com/1200x800?text=First+Image");
+}
+
+.bg2 {
+  background-image: url("https://via.placeholder.com/1200x800?text=Second+Image");
+}
+
+.block {
+  background-color: black;
+  color: white;
+}
 
