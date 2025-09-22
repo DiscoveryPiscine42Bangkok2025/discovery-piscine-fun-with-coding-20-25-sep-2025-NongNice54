@@ -1,1 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #555;
+}
 
