@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ex03bis</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #box { padding: 20px; background: lightblue; }
+  </style>
+</head>
+<body>
+  <button id="toggle">Toggle Box</button>
+  <div id="box">This is a box</div>
+
+  <script>
+    $(function() {
+      $("#toggle").click(function() {
+        $("#box").toggle();
+      });
+    });
+  </script>
+</body>
+</html>
 
