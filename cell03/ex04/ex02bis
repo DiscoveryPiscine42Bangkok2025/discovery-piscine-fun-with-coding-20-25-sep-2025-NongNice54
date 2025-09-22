@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ex02bis</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <p>Counter: <span id="count">0</span></p>
+  <button id="inc">+</button>
+  <button id="dec">-</button>
+
+  <script>
+    $(function() {
+      let counter = 0;
+      $("#inc").click(function() {
+        counter++;
+        $("#count").text(counter);
+      });
+      $("#dec").click(function() {
+        counter--;
+        $("#count").text(counter);
+      });
+    });
+  </script>
+</body>
+</html>
 
