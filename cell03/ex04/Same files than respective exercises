@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Change Background jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <button id="changeBtn">Change Background</button>
+
+  <script>
+    function randomColor() {
+      return "#" + Math.floor(Math.random()*16777215).toString(16);
+    }
+
+    $("#changeBtn").on("click", function() {
+      $("body").css("background-color", randomColor());
+    });
+  </script>
+</body>
+</html>
 
