@@ -149,20 +149,19 @@
     .profile-card h3 {
       margin: 15px 0;
       font-size: 1.5em;
-      color: #2c6e49;
+      color: white; /* 修改名字颜色为白色 */
       font-weight: 600;
     }
 
     .profile-card a {
       text-decoration: none;
-      color: #0073e6;
+      color: white; /* 修改按钮文字颜色为白色 */
       font-weight: 600;
       display: inline-block;
       margin-top: 15px;
       padding: 8px 20px;
       border-radius: 20px;
       background: linear-gradient(45deg, #4a9d6f, #2c6e49);
-      color: white;
       transition: all 0.3s ease;
       box-shadow: 0 4px 10px rgba(44, 110, 73, 0.3);
     }
@@ -170,7 +169,7 @@
     .profile-card a:hover {
       transform: translateY(-3px);
       box-shadow: 0 6px 15px rgba(44, 110, 73, 0.4);
-      color: white;
+      color: white; /* 悬停状态也保持白色 */
     }
 
     /* Resume Section */
